@@ -1,0 +1,20 @@
+<h1>Report on placed_orders</h1>
+<ol>
+  <% @placed_orders.each do |placed_order| %>
+    <li>
+      <p>Placed by: <%= link_to placed_order.customer.name, placed_order.customer%></p>
+      <p>Placed at: <%= placed_order.time_placed %></p>
+      <ul>
+        <% placed_order.order_lines.each do |order_line| %>
+        <li>
+          <%= order_line.amount %>x <%= link_to order_line.product.name, order_line.product %>
+        </li>
+        <% end %>
+      </ul>
+    </li>
+  <% end %>
+</ol>
+
+
+<p><%= link_to "Customers index", :customers%></p>
+<p><%= link_to "Products index", :products%></p>
