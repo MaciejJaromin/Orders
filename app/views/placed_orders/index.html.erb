@@ -1,0 +1,27 @@
+<h1>Listing placed_orders</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Time placed</th>
+      <th>Customer</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @placed_orders.each do |placed_order| %>
+      <tr>
+        <td><%= placed_order.time_placed %></td>
+        <td><%= placed_order.customer %></td>
+        <td><%= link_to 'Show', placed_order %></td>
+        <td><%= link_to 'Edit', edit_placed_order_path(placed_order) %></td>
+        <td><%= link_to 'Destroy', placed_order, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Placed order', new_placed_order_path %>

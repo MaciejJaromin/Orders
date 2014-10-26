@@ -1,0 +1,2 @@
+module PlacedOrdersHelper
+end

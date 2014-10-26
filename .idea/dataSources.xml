@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="1178328477">
+    <data-source source="LOCAL" name="Rails Order: development" uuid="d55ba68e-90ad-406f-a594-4d6e2fd1c87b">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:Order_development</jdbc-url>
+      <user-name>postgres</user-name>
+      <user-password>dfe8dfc6dfcbdfc2dfe8dfc6dfcbdfc2</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails Order: test" uuid="a3fd2afb-a36a-4d5b-a5ea-8c03bc21f8ae">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:Order_test</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails Order: production" uuid="7e823df4-9db0-49e6-9edc-4561c2bf9210">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:Order_production</jdbc-url>
+      <user-name>Order</user-name>
+      <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddfe5dff8dfeedfefdff8dff5dfeedfebdffedfebdfe8dfebdff9dfefdff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="PostgreSQL - postgres@localhost" uuid="09838cac-50ad-433d-af4e-5c86982f90d0">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/postgres</jdbc-url>
+      <user-name>postgres</user-name>
+      <user-password>dfe8dfc6dfcbdfc2dfe8dfc6dfcbdfc2</user-password>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+

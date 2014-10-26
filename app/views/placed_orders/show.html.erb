@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Time placed:</strong>
+  <%= @placed_order.time_placed %>
+</p>
+
+<p>
+  <strong>Customer:</strong>
+  <%= @placed_order.customer %>
+</p>
+
+<%= link_to 'Edit', edit_placed_order_path(@placed_order) %> |
+<%= link_to 'Back', placed_orders_path %>
